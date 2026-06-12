@@ -1,72 +1,65 @@
-# CreditWise Loan System - EDA
+# CreditWise Loan Approval Prediction System
 
-## Project Overview
+An end-to-end Machine Learning web application that predicts loan approval eligibility based on applicant financial and demographic information.
 
-CreditWise Loan System is a data analysis project focused on understanding the factors that influence loan approval decisions.
+## Live Demo
 
-This project performs Exploratory Data Analysis (EDA) and data preprocessing on a loan approval dataset to identify patterns, relationships, and key features that may impact loan approval outcomes.
+🚀 Streamlit App: https://s6srl42qhyaesgiutavlvv.streamlit.app/
 
-## Dataset Features
+## Features
 
-* Applicant Income
-* Coapplicant Income
-* Employment Status
-* Age
-* Marital Status
-* Dependents
-* Credit Score
-* Existing Loans
-* DTI Ratio
-* Savings
-* Collateral Value
-* Loan Amount
-* Loan Term
-* Loan Purpose
-* Property Area
-* Education Level
-* Gender
-* Employer Category
-* Loan Approved
+* Loan approval prediction using Machine Learning
+* Multiple trained models:
 
-## Analysis Performed
+  * Logistic Regression
+  * Naive Bayes
+  * K-Nearest Neighbors (KNN)
+* Automated data preprocessing
+* Interactive Streamlit dashboard
+* Real-time prediction results
+* Model comparison and performance metrics
 
-### Data Cleaning
-
-* Checked dataset structure
-* Examined missing values
-* Verified data types
-
-### Exploratory Data Analysis
-
-* Univariate analysis
-* Categorical feature analysis
-* Numerical feature analysis
-* Loan approval distribution
-* Income analysis
-* Credit score analysis
-* Correlation analysis
-
-### Visualizations
-
-* Count plots
-* Histograms
-* Box plots
-* Correlation heatmaps
-* Distribution plots
-
-## Tools & Libraries
+## Tech Stack
 
 * Python
 * Pandas
 * NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+* Scikit-learn
+* Streamlit
+* Plotly
+* Joblib
 
-## Future Improvements
+## Model Performance
 
-* Feature Engineering
-* Machine Learning Models
-* Model Evaluation
-* Loan Approval Prediction System
-* Streamlit Deployment
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 87.5%    |
+| Naive Bayes         | 90.0%    |
+| KNN                 | 74.0%    |
+
+## Project Structure
+
+```text
+creditwise_loan_system/
+│
+├── app.py
+├── preprocessing.py
+├── requirements.txt
+├── models/
+├── loan_approval_data.csv
+└── notebooks/
+```
+
+## Installation
+
+```bash
+git clone <repository-url>
+cd creditwise_loan_system
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Author
+
+Disha Agarwal
+B.Tech CSE | AI & Machine Learning Enthusiast
